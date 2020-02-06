@@ -7,6 +7,42 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+
+// Software
+import chatapp from '../assets/software/ChatApp.png';
+import eventfox from '../assets/software/eventfox.png';
+import instaclone from '../assets/software/InstaClone.png';
+import iphone from '../assets/software/Iphone.png';
+import moviedb from '../assets/software/moviedb.png';
+import mybooklist from '../assets/software/MyBookList.png';
+import rb from '../assets/riverbandits/video/rb.png';
+import sports from '../assets/software/sports.png';
+
+// Motion Graphics
+import mrrobot from '../assets/motiongraphics/mrrobot.png';
+import plane from '../assets/motiongraphics/Plane.png';
+
+// Logos
+import html from '../assets/logos/html5.png';
+import bootstrap from '../assets/logos/bootstrap.png';
+import css from '../assets/logos/css3.png';
+import firebase from '../assets/logos/firebase.png';
+import handlebars from '../assets/logos/handlebars.png';
+import javascript from '../assets/logos/javascript.png';
+import jquery from '../assets/logos/jquery.png';
+import mongodb from '../assets/logos/mongodb.png';
+import mysql from '../assets/logos/mysql.png';
+import node from '../assets/logos/node.png';
+import react from '../assets/logos/react.png';
+import aftereffects from '../assets/logos/AfterEffects.png';
+import illustrator from '../assets/logos/illustrator.png';
+import indesign from '../assets/logos/indesign.png';
+import xd from '../assets/logos/xd.png';
+import premierepro from '../assets/logos/premierepro.png';
+
+// Videos
+
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -14,12 +50,19 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        <ul className="icons">
+								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank"><span className="label">Linkedin</span></a></li>
+								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank"><span className="label">Github</span></a></li>
+        </ul>
         <ul className="actions special">
+        <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
+               View my resume
+              </a>
           <li>
             <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
+              {/* <a href="/#" className="button primary">
                 Explore
-              </a>
+              </a> */}
             </Scroll>
           </li>
         </ul>
@@ -35,33 +78,68 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Programming languages I am familur with
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
+            <img src={html} alt="" />
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
+            <img src={css} alt="" />
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
+            <img src={bootstrap} alt="" />
+          </li>
+          <li>
+            <img src={javascript} alt="" />
+          </li>
+          <li>
+            <img src={react} alt="" />
+          </li>
+          <li>
+            <img src={mongodb} alt="" />
+          </li>
+          <li>
+            <img src={mysql} alt="" />
+          </li>
+          <li>
+            <img src={firebase} alt="" />
+          </li>
+          <li>
+            <img src={node} alt="" />
+          </li>
+          <li>
+            <img src={handlebars} alt="" />
+          </li>
+          <li>
+            <img src={jquery} alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <div className="inner">
+        <header className="major">
+          <h2>
+            Design programs I am skilled with
+          </h2>
+        </header>
+
+        <ul className="icons major">
+          <li>
+            <img src={premierepro} alt="" />
+          </li>
+          <li>
+            <img src={aftereffects} alt="" />
+          </li>
+          <li>
+            <img src={illustrator} alt="" />
+          </li>
+          <li>
+            <img src={indesign} alt="" />
+          </li>
+          <li>
+            <img src={xd} alt="" />
           </li>
         </ul>
       </div>
@@ -70,23 +148,42 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={eventfox} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            <a href="https://eventfox-management-app.herokuapp.com/" target="_blank">Eventfox Management</a>
           </h2>
+          <h5>
+            Created with Ruby on Rails // Bootstrap 4
+          </h5>
+          <br />
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            A project management application allowing users to create tasks within individual projects. Users can see their individually assigned tasks and have the option to update them or delete them upon completion.
           </p>
         </div>
       </section>
+
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={chatapp} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="http://chat-app-jh.herokuapp.com/" target="_blank">ChatApp</a>
+          </h2>
+          <h5>
+            Created with NodeJS // Express // Socket.IO
+          </h5>
+          <p>
+            A real-time chat application. Users can have chat conersations with one another while logged into the current chat channel.
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={sports} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -100,19 +197,104 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
+
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={instaclone} alt="" />
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            <a href="http://chat-app-jh.herokuapp.com/" target="_blank">Insta-Clone</a>
           </h2>
+          <h5>
+            Created with NodeJS // Express // Socket.IO
+          </h5>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
             imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={iphone} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="https://iphone-interactive.netlify.com/" target="_blank">Product Information</a>
+          </h2>
+          <h5>
+            Created with HTML // CSS // JavaScript
+          </h5>
+          <p>
+            A product order form site built with HTML, CSS and JavaScript
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={moviedb} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="http://moviedatabasereact.netlify.com/" target="_blank">Movie Database</a>
+          </h2>
+          <h5>
+            Created with React // CSS // MovieDatabase API
+          </h5>
+          <p>
+            An application to look up information about your favorite movies.
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={mybooklist} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="http://booklist-jh.herokuapp.com/" target="_blank">My Booklist</a>
+          </h2>
+          <h5>
+            Created with vanilla JavaScript
+          </h5>
+          <p>
+            A book list application created using vanilla JavaScript.
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={plane} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="https://vimeo.com/157966459" target="_blank">The Great Escape</a>
+          </h2>
+          <h5>
+            Created with Adobe After Effects // Cinema 4d
+          </h5>
+          <p>
+            An animation showing a bi-plane escaping to be free with the rest of the planes it dreamed of flying with.
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={rb} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="https://youtu.be/PFF_5qcFeUk" target="_blank">River Bandits win the first half!</a>
+          </h2>
+          <h5>
+            Created with Adobe Premiere Pro
+          </h5>
+          <p>
+            A video recap of the Quad Cities River Bandits winning the Midwest League First-Half Championship.
           </p>
         </div>
       </section>
@@ -121,85 +303,158 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Other projects</h2>
+        </header>
+
+        <ul className="features">
+        
+        {/* Weather App React */}
+        <li className="icon solid fa-code">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Weather Application</a></h3>
+            <h5>Created using:
+              <br />
+              React // CSS // Weather API
+            </h5>
+            <p>
+              A real-time weather application where you can view your weather with your city or zipcode.
+            </p>
+          </li>
+
+          {/* Star Wars */}
+          <li className="icon solid fa-code">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Star Wars Character Creator</a></h3>
+            <h5>Created using:
+              <br />
+              Vanilla JavaScript // Bootstrap // Rails API
+            </h5>
+            <p>
+              A character creator for the Star Wars Universe.
+            </p>
+          </li>
+        
+        {/* Mr. Robot */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Mr. Robot Title Sequence</a></h3>
+            <h5>Created using:
+              <br />
+              Adobe After Effects // Cinema 4D</h5>
+            <p>
+              Mr. Robot's title sequence reimagined.
+            </p>
+          </li>
+
+          {/* UC Davis Football Training Hype */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank">UC Davis Football Hype</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Football hype video.
+            </p>
+          </li>
+
+          {/* UC Davis High Energy Moment */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank">High Energy Moment</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              Each week, UC Davis football has one play highlighted for the team's High-Energy moment of the game. 
+            </p>
+          </li>
+
+          {/* UC Davis Global Affairs Basketball */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank">Global Affairs: Men's Basketball</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A video package highlighting UC Davis great opportunity to study abroad while being a student-athlete. 
+            </p>
+          </li>
+
+          {/* UC Davis Global Affairs Lacrosse */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank">Global Affairs: Lacrosse</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A video package highlighting UC Davis great opportunity to study abroad while being a student-athlete. 
+            </p>
+          </li>
+
+          {/* UC Davis Men's Basketball Quick Hit */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank">Men's Basketball Quick Hit</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A quick hit for social media showing off UC Davis Men's Basketball
+            </p>
+          </li>
+
+          {/* UC Davis Men's basketball Season Recap */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank">Men's Basketball Season Recap</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Men's basketball team recap video.
+            </p>
+          </li>
+
+          {/* UC Davis Women's Basketball Hype */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank">Women's Basketball Season Hype</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Women's basketball team get ready for the season.
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section id="cta" className="wrapper style2">
+      <div className="inner">
+        <header>
+          <h2>I am actively looking for new work</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            I am actively looking for new opportunities and would love to be part of your team. Don't hesitate to reach out if you have any questions.
           </p>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+        <ul className="actions stacked">
+          <li>
+          <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
+              Resume
+              </a>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+          <li>
+            <a href="jharreldesign@gmail.com" className="button fit">
+              Contact Me
+            </a>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    
   </Layout>
 );
 
