@@ -6,9 +6,159 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Generic Page</h2>
-        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        <h2>Videos</h2>
+        <p>A collection of videos created for different positions I've been with.</p>
       </header>
+
+
+      
+
+      <section id="three" className="wrapper style3 special">
+      <div className="inner">
+        <header className="major">
+          <h2>Other projects</h2>
+        </header>
+        
+
+        <ul className="features">
+        
+        {/* Weather App React */}
+        <li className="icon solid fa-code">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Weather Application</a></h3>
+            <h5>Created using:
+              <br />
+              React // CSS // Weather API
+            </h5>
+            <p>
+              A real-time weather application where you can view your weather with your city or zipcode.
+            </p>
+          </li>
+
+          {/* Star Wars */}
+          <li className="icon solid fa-code">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Star Wars Character Creator</a></h3>
+            <h5>Created using:
+              <br />
+              Vanilla JavaScript // Bootstrap // Rails API
+            </h5>
+            <p>
+              A character creator for the Star Wars Universe.
+            </p>
+          </li>
+        
+        {/* Mr. Robot */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Mr. Robot Title Sequence</a></h3>
+            <h5>Created using:
+              <br />
+              Adobe After Effects // Cinema 4D</h5>
+            <p>
+              Mr. Robot's title sequence reimagined.
+            </p>
+          </li>
+
+          {/* UC Davis Football Training Hype */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank">UC Davis Football Hype</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Football hype video.
+            </p>
+          </li>
+
+          {/* UC Davis High Energy Moment */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank">High Energy Moment</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              Each week, UC Davis football has one play highlighted for the team's High-Energy moment of the game. 
+            </p>
+          </li>
+
+          {/* UC Davis Global Affairs Basketball */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank">Global Affairs: Men's Basketball</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A video package highlighting UC Davis great opportunity to study abroad while being a student-athlete. 
+            </p>
+          </li>
+
+          {/* UC Davis Global Affairs Lacrosse */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank">Global Affairs: Lacrosse</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A video package highlighting UC Davis great opportunity to study abroad while being a student-athlete. 
+            </p>
+          </li>
+
+          {/* UC Davis Men's Basketball Quick Hit */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank">Men's Basketball Quick Hit</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              A quick hit for social media showing off UC Davis Men's Basketball
+            </p>
+          </li>
+
+          {/* UC Davis Men's basketball Season Recap */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank">Men's Basketball Season Recap</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Men's basketball team recap video.
+            </p>
+          </li>
+
+          {/* UC Davis Women's Basketball Hype */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank">Women's Basketball Season Hype</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis Women's basketball team get ready for the season.
+            </p>
+          </li>
+
+          {/* UC Davis Health Gunrock */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis mascot, Gunrock, visits his friends at UC Davis Health to show how easy it is to get setup for your next doctors visit. 
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+
       <section className="wrapper style5">
         <div className="inner">
           <h3>Lorem ipsum dolor</h3>

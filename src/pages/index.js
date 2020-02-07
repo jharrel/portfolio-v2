@@ -54,10 +54,12 @@ const IndexPage = () => (
 								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank"><span className="label">Linkedin</span></a></li>
 								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank"><span className="label">Github</span></a></li>
         </ul>
-        <ul className="actions special">
+
         <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
                View my resume
               </a>
+
+        <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
               {/* <a href="/#" className="button primary">
@@ -427,6 +429,18 @@ const IndexPage = () => (
             </p>
           </li>
 
+          {/* UC Davis Health Gunrock */}
+          <li className="icon solid fa-film">
+            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
+            <h5>Created using:
+              <br />
+              Premiere Pro
+            </h5>
+            <p>
+              UC Davis mascot, Gunrock, visits his friends at UC Davis Health to show how easy it is to get setup for your next doctors visit. 
+            </p>
+          </li>
+
         </ul>
       </div>
     </section>
@@ -434,27 +448,26 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style2">
       <div className="inner">
         <header>
-          <h2>I am actively looking for new work</h2>
+          <h2>Arcue ut vel commodo</h2>
           <p>
-            I am actively looking for new opportunities and would love to be part of your team. Don't hesitate to reach out if you have any questions.
+            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
+            eleifend fringilla.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-          <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
-              Resume
-              </a>
+            <a href="/#" className="button fit primary">
+              Activate
+            </a>
           </li>
           <li>
-            <a href="jharreldesign@gmail.com" className="button fit">
-              Contact Me
+            <a href="/#" className="button fit">
+              Learn More
             </a>
           </li>
         </ul>
       </div>
     </section>
-
-    
   </Layout>
 );
 

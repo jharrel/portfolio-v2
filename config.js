@@ -1,12 +1,11 @@
 module.exports = {
   siteTitle: 'JHarrel Design', // <title>
-  manifestName: 'Spectral',
+  manifestName: 'JHarrel Design',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/favicon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Jason Harrel',
   subHeading: 'Front-End developer & Creative Service professional  ',
