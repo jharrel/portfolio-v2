@@ -11,23 +11,23 @@ module.exports = {
   subHeading: 'Front-End developer & Creative Service professional  ',
   // social
   socialLinks: [
-    {
-      style: 'brands',
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/jharrel',
-    },
+    // {
+    //   style: 'brands',
+    //   icon: 'fa-github',
+    //   name: 'Github',
+    //   url: 'https://github.com/jharrel',
+    // },
     // {
     //   style: 'brands',
     //   icon: 'fa-twitter',
     //   name: 'Twitter',
     //   url: 'https://twitter.com/onlyanubhav',
     // },
-    {
-      style: 'solid',
-      icon: 'fa-envelope',
-      name: 'Email',
-      url: 'jharreldesign@gmail.com',
-    },
+    // {
+    //   style: 'solid',
+    //   icon: 'fa-envelope',
+    //   name: 'Email',
+    //   url: 'jharreldesign@gmail.com',
+    // },
   ],
 };

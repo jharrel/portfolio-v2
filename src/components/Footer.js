@@ -17,9 +17,14 @@ export default function Footer() {
       </ul>
       <ul className="copyright">
         <li>&copy; JHarrel Design</li>
-        {/* <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li> */}
+        <br />
+          <a href="github.com/jharrel" target="_blank">Github</a>
+        <li>
+          <a href="linkedin.com/in/jasonharrel" target="_blank">Linkedin</a>
+        </li>
+        <li>
+          <a href="mailto: jharreldesign@gmail.com" target="_blank">Email</a>
+        </li>
       </ul>
     </footer>
   );

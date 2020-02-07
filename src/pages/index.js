@@ -4,10 +4,6 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-
 // Software
 import chatapp from '../assets/software/ChatApp.png';
 import eventfox from '../assets/software/eventfox.png';
@@ -53,6 +49,7 @@ const IndexPage = () => (
         <ul className="icons">
 								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank"><span className="label">Linkedin</span></a></li>
 								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank"><span className="label">Github</span></a></li>
+                <li><a href="mailto: jharreldesign@gmail.com" className="icon solid fa-envelope" target="_blank"><span className="label">Email</span></a></li>
         </ul>
 
         <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
@@ -80,7 +77,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Programming languages I am familur with
+            Programming languages I am familiar with
           </h2>
         </header>
         <ul className="icons major">
@@ -430,7 +427,7 @@ const IndexPage = () => (
           </li>
 
           {/* UC Davis Health Gunrock */}
-          <li className="icon solid fa-film">
+          {/* <li className="icon solid fa-film">
             <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
             <h5>Created using:
               <br />
@@ -439,7 +436,7 @@ const IndexPage = () => (
             <p>
               UC Davis mascot, Gunrock, visits his friends at UC Davis Health to show how easy it is to get setup for your next doctors visit. 
             </p>
-          </li>
+          </li> */}
 
         </ul>
       </div>
@@ -448,21 +445,26 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style2">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Thank you for visiting</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            I am currently looking for my next design opportunity. If you have any leads or would like to discuss more, please click the button to the right to get in touch.
           </p>
         </header>
         <ul className="actions stacked">
-          <li>
+          {/* <li>
             <a href="/#" className="button fit primary">
               Activate
             </a>
+          </li> */}
+          <li>
+
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
+            
+          </li>
+          <li>
+            <a href="mailto: jharreldesign@gmail.com" className="button fit">
+              Email Me
             </a>
           </li>
         </ul>
