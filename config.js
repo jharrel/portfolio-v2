@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `jharrel.design`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Jason Harrel',
   subHeading: 'Front-End developer & Creative Service professional  ',
   // social
