@@ -463,7 +463,7 @@ const IndexPage = () => (
             
           </li>
           <li>
-            <a href="mailto: jharreldesign@gmail.com" className="button fit">
+            <a href="mailto: jason@jharrel.design" className="button fit">
               Email Me
             </a>
           </li>
