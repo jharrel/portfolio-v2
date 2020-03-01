@@ -87,18 +87,11 @@ const IndexPage = () => (
           <li>
             <img src={css} alt="" />
           </li>
-          <li>
-            <img src={bootstrap} alt="" />
-          </li>
+          
           <li>
             <img src={javascript} alt="" />
           </li>
-          <li>
-            <img src={react} alt="" />
-          </li>
-          <li>
-            <img src={mongodb} alt="" />
-          </li>
+          
           <li>
             <img src={mysql} alt="" />
           </li>
@@ -116,6 +109,23 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
+
+      <header className="major">
+          <h2>
+            Programming languages I am familiar with
+          </h2>
+        </header>
+        <ul className="icons major">
+          <li>
+            <img src={bootstrap} alt="" />
+          </li>
+          <li>
+            <img src={react} alt="" />
+          </li>
+          <li>
+            <img src={mongodb} alt="" />
+          </li>
+        </ul>
 
       <div className="inner">
         <header className="major">
