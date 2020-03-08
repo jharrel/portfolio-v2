@@ -40,10 +40,10 @@ const IndexPage = () => (
     <article id="main">
       <header>
         <h2>Graphics</h2>
-        <p>A collection of graphics created for different positions I've been with.</p>
+        <p>A collection of graphics created</p>
         <br />
         <p>
-          Programs used to create these pieces:
+          Created with:
           </p>
 
         <ul className="icons major">
