@@ -15,7 +15,7 @@ import rb from '../assets/riverbandits/video/rb.png';
 import sports from '../assets/software/sports.png';
 
 // Motion Graphics
-import mrrobot from '../assets/motiongraphics/mrrobot.png';
+// import mrrobot from '../assets/motiongraphics/mrrobot.png';
 import plane from '../assets/motiongraphics/Plane.png';
 
 // Logos
@@ -47,9 +47,9 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="icons">
-								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank"><span className="label">Linkedin</span></a></li>
-								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank"><span className="label">Github</span></a></li>
-                <li><a href="mailto: jharreldesign@gmail.com" className="icon solid fa-envelope" target="_blank"><span className="label">Email</span></a></li>
+								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span className="label">Linkedin</span></a></li>
+								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span className="label">Github</span></a></li>
+                <li><a href="mailto: jharreldesign@gmail.com" className="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span className="label">Email</span></a></li>
         </ul>
 
         <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
