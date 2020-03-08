@@ -23,7 +23,7 @@ export default function Footer() {
           <a href="linkedin.com/in/jasonharrel" target="_blank" rel="noopener noreferrer">Linkedin</a>
         </li>
         <li>
-          <a href="mailto: jharreldesign@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+          <a href="mailto: jason@jharrel.design" target="_blank" rel="noopener noreferrer">Email</a>
         </li>
       </ul>
     </footer>

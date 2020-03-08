@@ -49,7 +49,7 @@ const IndexPage = () => (
         <ul className="icons">
 								<li><a href="https://www.linkedin.com/in/jasonharrel/" className="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span className="label">Linkedin</span></a></li>
 								<li><a href="https://www.github.com/jharrel" className="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span className="label">Github</span></a></li>
-                <li><a href="mailto: jharreldesign@gmail.com" className="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span className="label">Email</span></a></li>
+                <li><a href="mailto: jason@jharrel.design" className="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span className="label">Email</span></a></li>
         </ul>
 
         <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank" rel="noopener noreferrer">
