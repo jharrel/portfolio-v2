@@ -77,7 +77,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Programming languages I am familiar with
+            Programming languages I have experience with:
           </h2>
         </header>
         <ul className="icons major">
@@ -130,7 +130,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Design programs I am skilled with
+            Video and Design programs I am skilled with
           </h2>
         </header>
 

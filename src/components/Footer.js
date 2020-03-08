@@ -16,7 +16,9 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; JHarrel Design</li>
+        <li>Thank you for visiting</li>
+        <br />
+        &copy; JHarrel Design
         <br />
           <a href="github.com/jharrel" target="_blank" rel="noopener noreferrer">Github</a>
         <li>
