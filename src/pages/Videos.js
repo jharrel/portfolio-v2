@@ -89,7 +89,7 @@ const IndexPage = () => (
             {/* Mr. Robot */}
             <img src={mrrobot} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://vimeo.com/233770793" target="_blank">Mr. Robot Title Sequence</a></h3>
+              <h3><a href="https://vimeo.com/233770793" target="_blank" rel="noopener noreferrer">Mr. Robot Title Sequence</a></h3>
               <h5>Created using:
               <br />
                 Adobe After Effects // Cinema 4D</h5>
@@ -101,7 +101,7 @@ const IndexPage = () => (
             {/* The Great Escape */}
             <img src={plane} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://vimeo.com/157966459" target="_blank">
+              <h3><a href="https://vimeo.com/157966459" target="_blank" rel="noopener noreferrer">
                 The Great Escape</a></h3>
               <h5>Created using:
               <br />
@@ -115,7 +115,7 @@ const IndexPage = () => (
             {/* Lets move qc */}
             <img src={letsmoveqc} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/g6zmY6dCi-s" target="_blank">Let's Move Quad Cities</a></h3>
+              <h3><a href="https://youtu.be/g6zmY6dCi-s" target="_blank" rel="noopener noreferrer">Let's Move Quad Cities</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -128,7 +128,7 @@ const IndexPage = () => (
                         {/* commercial one */}
                         <img src={commercialone} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/sduBM3CmcPU" target="_blank">Quad Cities River Bandits commercial one</a></h3>
+              <h3><a href="https://youtu.be/sduBM3CmcPU" target="_blank" rel="noopener noreferrer">Quad Cities River Bandits commercial one</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -141,7 +141,7 @@ const IndexPage = () => (
                         {/* commercial two */}
                         <img src={commercialtwo} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/ErO-tmT7GF8" target="_blank">Quad Cities River Bandits commercial two</a></h3>
+              <h3><a href="https://youtu.be/ErO-tmT7GF8" target="_blank" rel="noopener noreferrer">Quad Cities River Bandits commercial two</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -154,7 +154,7 @@ const IndexPage = () => (
                         {/* commercial three */}
                         <img src={commercialthree} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/cD5yVwBhat8" target="_blank">Quad Cities River Bandits commercial three</a></h3>
+              <h3><a href="https://youtu.be/cD5yVwBhat8" target="_blank" rel="noopener noreferrer">Quad Cities River Bandits commercial three</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -167,7 +167,7 @@ const IndexPage = () => (
             {/* UC Davis Football Training Hype */}
             <img src={fbintro} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/S-hD38EFBuw" target="_blank">UC Davis Player Intro</a></h3>
+              <h3><a href="https://youtu.be/S-hD38EFBuw" target="_blank" rel="noopener noreferrer">UC Davis Player Intro</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -180,7 +180,7 @@ const IndexPage = () => (
             {/* UC Davis High Energy Moment */}
             <img src={highenergymoment} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank">High Energy Moment</a></h3>
+              <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank" rel="noopener noreferrer">High Energy Moment</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -193,7 +193,7 @@ const IndexPage = () => (
             {/* UC DAvis Global Affairs Football */}
             <img src={globalaffairsfootball} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/1vkgaYngA-s" target="_blank">
+              <h3><a href="https://youtu.be/1vkgaYngA-s" target="_blank" rel="noopener noreferrer">
                 Global Affairs: Football</a></h3>
               <h5>Created using:
               <br />
@@ -207,7 +207,7 @@ const IndexPage = () => (
             {/* UC Davis Global Affairs Basketball */}
             <img src={globalaffairsbasketball} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank">Global Affairs: Men's Basketball</a></h3>
+              <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank" rel="noopener noreferrer">Global Affairs: Men's Basketball</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -220,7 +220,7 @@ const IndexPage = () => (
             {/* UC Davis Global Affairs Lacrosse */}
             <img src={GlobalAffairsLacrosse} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank">Global Affairs: Lacrosse</a></h3>
+              <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank" rel="noopener noreferrer">Global Affairs: Lacrosse</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -234,7 +234,7 @@ const IndexPage = () => (
 
             <img src={mensbasketballquickhittwo} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank">Men's Basketball Quick Hit</a></h3>
+              <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank" rel="noopener noreferrer">Men's Basketball Quick Hit</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -247,7 +247,7 @@ const IndexPage = () => (
             {/* UC Davis Men's basketball Season Recap */}
             <img src={mensbasketballseasonrecap} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank">Men's Basketball Season Recap</a></h3>
+              <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank" rel="noopener noreferrer">Men's Basketball Season Recap</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -260,7 +260,7 @@ const IndexPage = () => (
             {/* UC Davis Women's Basketball Hype */}
             <img src={womensbasketballhype} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank">Women's Basketball Season Hype</a></h3>
+              <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank" rel="noopener noreferrer">Women's Basketball Season Hype</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -273,7 +273,7 @@ const IndexPage = () => (
             {/* UC Davis Health Gunrock */}
             <img src={ucdavishealth} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
+              <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank" rel="noopener noreferrer">UC Davis Gunrock Visits UC Davis Health</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -286,7 +286,7 @@ const IndexPage = () => (
             {/* UC Davis Evo */}
             <img src={evoroadtrip} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/EUTpoNzDVkw" target="_blank">UC Davis SF Evo Trip</a></h3>
+              <h3><a href="https://youtu.be/EUTpoNzDVkw" target="_blank" rel="noopener noreferrer">UC Davis SF Evo Trip</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro // After Effects
@@ -299,7 +299,7 @@ const IndexPage = () => (
             {/* Quad Cities River Bandits 1 */}
             <img src={rascalitbegins} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/_aI2dDAdS9M" target="_blank">Rascal Video Series Video 1: Rascal gets a new look</a></h3>
+              <h3><a href="https://youtu.be/_aI2dDAdS9M" target="_blank" rel="noopener noreferrer">Rascal Video Series Video 1: Rascal gets a new look</a></h3>
               <h5>Created using:
               <br />
                 Premiere Pro
@@ -312,7 +312,7 @@ const IndexPage = () => (
             {/* Quad Cities River Bandits 2 */}
             <img src={rascaltickets} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/KUOvm8K3ibg" target="_blank">
+              <h3><a href="https://youtu.be/KUOvm8K3ibg" target="_blank" rel="noopener noreferrer">
                 Rascal Video Series Video 2: Tickets on sale</a></h3>
               <h5>Created using:
               <br />
@@ -326,7 +326,7 @@ const IndexPage = () => (
             {/* Quad Cities River Bandits 3 */}
             <img src={rascalboxoffice} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/MbKCgXYASp0" target="_blank">
+              <h3><a href="https://youtu.be/MbKCgXYASp0" target="_blank" rel="noopener noreferrer">
                 Rascal Video Series Video 3: Get your ticket on</a></h3>
               <h5>Created using:
               <br />
@@ -340,7 +340,7 @@ const IndexPage = () => (
             {/* Quad Cities River Bandits 4 */}
             <img src={itbeginsrascal} alt="" height="200" width="400" center />
             <ol className="icon solid fa-film">
-              <h3><a href="https://youtu.be/QxiHIaqNCeY" target="_blank">
+              <h3><a href="https://youtu.be/QxiHIaqNCeY" target="_blank" rel="noopener noreferrer">
                 Rascal Video Series Video 4: Today's the Day</a></h3>
               <h5>Created using:
               <br />
@@ -368,7 +368,7 @@ const IndexPage = () => (
 
             {/* Aggie Pack Hype */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/Dkykweh2Gnk" target="_blank">Aggie Pack Hype</a></h3>
+              <h3><a href="https://youtu.be/Dkykweh2Gnk" target="_blank" rel="noopener noreferrer">Aggie Pack Hype</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -378,7 +378,7 @@ const IndexPage = () => (
 
             {/* FB Family Day */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/iP2IVFJVgi0" target="_blank">Football Family Day</a></h3>
+              <h3><a href="https://youtu.be/iP2IVFJVgi0" target="_blank" rel="noopener noreferrer">Football Family Day</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -388,7 +388,7 @@ const IndexPage = () => (
 
             {/* Football Hype */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/dvxCbwdmoOc" target="_blank">Football Hype</a></h3>
+              <h3><a href="https://youtu.be/dvxCbwdmoOc" target="_blank" rel="noopener noreferrer">Football Hype</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -398,7 +398,7 @@ const IndexPage = () => (
 
             {/* FB Training Hype */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank">Football Training</a></h3>
+              <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank" rel="noopener noreferrer">Football Training</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -408,7 +408,7 @@ const IndexPage = () => (
 
             {/* Homecoming Hype */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/8fLzMg2V6t0" target="_blank">Homecoming Hype</a></h3>
+              <h3><a href="https://youtu.be/8fLzMg2V6t0" target="_blank" rel="noopener noreferrer">Homecoming Hype</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -418,7 +418,7 @@ const IndexPage = () => (
 
             {/* MBB intro */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/2_Pl7EbbF00" target="_blank">Men's Basketball Intro</a></h3>
+              <h3><a href="https://youtu.be/2_Pl7EbbF00" target="_blank" rel="noopener noreferrer">Men's Basketball Intro</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -428,7 +428,7 @@ const IndexPage = () => (
 
             {/* Morgan Bertsch Record */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/TZg-h3h6SxA" target="_blank">Morgan Bertsch Record Night</a></h3>
+              <h3><a href="https://youtu.be/TZg-h3h6SxA" target="_blank" rel="noopener noreferrer">Morgan Bertsch Record Night</a></h3>
               <h5>
                 Created at: UC Davis
                 <br />
@@ -438,7 +438,7 @@ const IndexPage = () => (
 
             {/* River Bandits Championship */}
             <li className="icon solid fa-film">
-              <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">River Bandits Championship</a></h3>
+              <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">River Bandits Championship</a></h3>
               <h5>
                 Created at: Quad Cities River Bandits
                 <br />

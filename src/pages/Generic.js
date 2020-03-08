@@ -24,7 +24,7 @@ const IndexPage = () => (
         
         {/* Weather App React */}
         <li className="icon solid fa-code">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Weather Application</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Weather Application</a></h3>
             <h5>Created using:
               <br />
               React // CSS // Weather API
@@ -36,7 +36,7 @@ const IndexPage = () => (
 
           {/* Star Wars */}
           <li className="icon solid fa-code">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Star Wars Character Creator</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Star Wars Character Creator</a></h3>
             <h5>Created using:
               <br />
               Vanilla JavaScript // Bootstrap // Rails API
@@ -48,7 +48,7 @@ const IndexPage = () => (
         
         {/* Mr. Robot */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Mr. Robot Title Sequence</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Mr. Robot Title Sequence</a></h3>
             <h5>Created using:
               <br />
               Adobe After Effects // Cinema 4D</h5>
@@ -59,7 +59,7 @@ const IndexPage = () => (
 
           {/* UC Davis Football Training Hype */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank">UC Davis Football Hype</a></h3>
+            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank" rel="noopener noreferrer">UC Davis Football Hype</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -71,7 +71,7 @@ const IndexPage = () => (
 
           {/* UC Davis High Energy Moment */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank">High Energy Moment</a></h3>
+            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank" rel="noopener noreferrer">High Energy Moment</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -95,7 +95,7 @@ const IndexPage = () => (
 
           {/* UC Davis Global Affairs Lacrosse */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank">Global Affairs: Lacrosse</a></h3>
+            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank" rel="noopener noreferrer">Global Affairs: Lacrosse</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -107,7 +107,7 @@ const IndexPage = () => (
 
           {/* UC Davis Men's Basketball Quick Hit */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank">Men's Basketball Quick Hit</a></h3>
+            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank" rel="noopener noreferrer">Men's Basketball Quick Hit</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -119,7 +119,7 @@ const IndexPage = () => (
 
           {/* UC Davis Men's basketball Season Recap */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank">Men's Basketball Season Recap</a></h3>
+            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank" rel="noopener noreferrer">Men's Basketball Season Recap</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -131,7 +131,7 @@ const IndexPage = () => (
 
           {/* UC Davis Women's Basketball Hype */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank">Women's Basketball Season Hype</a></h3>
+            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank" rel="noopener noreferrer">Women's Basketball Season Hype</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -143,7 +143,7 @@ const IndexPage = () => (
 
           {/* UC Davis Health Gunrock */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
+            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank" rel="noopener noreferrer">UC Davis Gunrock Visits UC Davis Health</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro

@@ -52,7 +52,7 @@ const IndexPage = () => (
                 <li><a href="mailto: jharreldesign@gmail.com" className="icon solid fa-envelope" target="_blank" rel="noopener noreferrer"><span className="label">Email</span></a></li>
         </ul>
 
-        <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank">
+        <a href="https://drive.google.com/open?id=14Dxl_1y0WsGENXX1QgfPAPC31Dztf7Su" className="button primary" target="_blank" rel="noopener noreferrer">
                View my resume
               </a>
 
@@ -161,7 +161,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="https://eventfox-management-app.herokuapp.com/" target="_blank">Eventfox Management</a>
+            <a href="https://eventfox-management-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Eventfox Management</a>
           </h2>
           <h5>
             Created with Ruby on Rails // Bootstrap 4
@@ -179,7 +179,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="http://chat-app-jh.herokuapp.com/" target="_blank">ChatApp</a>
+            <a href="http://chat-app-jh.herokuapp.com/" target="_blank" rel="noopener noreferrer">ChatApp</a>
           </h2>
           <h5>
             Created with NodeJS // Express // Socket.IO
@@ -213,7 +213,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="http://chat-app-jh.herokuapp.com/" target="_blank">Insta-Clone</a>
+            <a href="http://chat-app-jh.herokuapp.com/" target="_blank" rel="noopener noreferrer">Insta-Clone</a>
           </h2>
           <h5>
             Created with NodeJS // Express // Socket.IO
@@ -230,7 +230,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="https://iphone-interactive.netlify.com/" target="_blank">Product Information</a>
+            <a href="https://iphone-interactive.netlify.com/" target="_blank" rel="noopener noreferrer">Product Information</a>
           </h2>
           <h5>
             Created with HTML // CSS // JavaScript
@@ -246,7 +246,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="http://moviedatabasereact.netlify.com/" target="_blank">Movie Database</a>
+            <a href="http://moviedatabasereact.netlify.com/" target="_blank" rel="noopener noreferrer">Movie Database</a>
           </h2>
           <h5>
             Created with React // CSS // MovieDatabase API
@@ -263,7 +263,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="http://booklist-jh.herokuapp.com/" target="_blank">My Booklist</a>
+            <a href="http://booklist-jh.herokuapp.com/" target="_blank" rel="noopener noreferrer">My Booklist</a>
           </h2>
           <h5>
             Created with vanilla JavaScript
@@ -280,7 +280,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="https://vimeo.com/157966459" target="_blank">The Great Escape</a>
+            <a href="https://vimeo.com/157966459" target="_blank" rel="noopener noreferrer">The Great Escape</a>
           </h2>
           <h5>
             Created with Adobe After Effects // Cinema 4d
@@ -297,7 +297,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a href="https://youtu.be/PFF_5qcFeUk" target="_blank">River Bandits win the first half!</a>
+            <a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">River Bandits win the first half!</a>
           </h2>
           <h5>
             Created with Adobe Premiere Pro
@@ -319,7 +319,7 @@ const IndexPage = () => (
         
         {/* Weather App React */}
         <li className="icon solid fa-code">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Weather Application</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Weather Application</a></h3>
             <h5>Created using:
               <br />
               React // CSS // Weather API
@@ -331,7 +331,7 @@ const IndexPage = () => (
 
           {/* Star Wars */}
           <li className="icon solid fa-code">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Star Wars Character Creator</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Star Wars Character Creator</a></h3>
             <h5>Created using:
               <br />
               Vanilla JavaScript // Bootstrap // Rails API
@@ -343,7 +343,7 @@ const IndexPage = () => (
         
         {/* Mr. Robot */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank">Mr. Robot Title Sequence</a></h3>
+            <h3><a href="https://youtu.be/PFF_5qcFeUk" target="_blank" rel="noopener noreferrer">Mr. Robot Title Sequence</a></h3>
             <h5>Created using:
               <br />
               Adobe After Effects // Cinema 4D</h5>
@@ -354,7 +354,7 @@ const IndexPage = () => (
 
           {/* UC Davis Football Training Hype */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank">UC Davis Football Hype</a></h3>
+            <h3><a href="https://youtu.be/0SyuJLtLWGk" target="_blank" rel="noopener noreferrer">UC Davis Football Hype</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -366,7 +366,7 @@ const IndexPage = () => (
 
           {/* UC Davis High Energy Moment */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank">High Energy Moment</a></h3>
+            <h3><a href="https://youtu.be/a1J0nDlvsJY" target="_blank" rel="noopener noreferrer">High Energy Moment</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -378,7 +378,7 @@ const IndexPage = () => (
 
           {/* UC Davis Global Affairs Basketball */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank">Global Affairs: Men's Basketball</a></h3>
+            <h3><a href="https://youtu.be/6Af4Op_zrDI" target="_blank" rel="noopener noreferrer">Global Affairs: Men's Basketball</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -390,7 +390,7 @@ const IndexPage = () => (
 
           {/* UC Davis Global Affairs Lacrosse */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank">Global Affairs: Lacrosse</a></h3>
+            <h3><a href="https://youtu.be/01_W4xnuN5U" target="_blank" rel="noopener noreferrer">Global Affairs: Lacrosse</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -402,7 +402,7 @@ const IndexPage = () => (
 
           {/* UC Davis Men's Basketball Quick Hit */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank">Men's Basketball Quick Hit</a></h3>
+            <h3><a href="https://youtu.be/qusXtdCnK38" target="_blank" rel="noopener noreferrer">Men's Basketball Quick Hit</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -414,7 +414,7 @@ const IndexPage = () => (
 
           {/* UC Davis Men's basketball Season Recap */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank">Men's Basketball Season Recap</a></h3>
+            <h3><a href="https://youtu.be/HSsUugmMMUw" target="_blank" rel="noopener noreferrer">Men's Basketball Season Recap</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -426,7 +426,7 @@ const IndexPage = () => (
 
           {/* UC Davis Women's Basketball Hype */}
           <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank">Women's Basketball Season Hype</a></h3>
+            <h3><a href="https://youtu.be/NJIAYHL3glI" target="_blank" rel="noopener noreferrer">Women's Basketball Season Hype</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -438,7 +438,7 @@ const IndexPage = () => (
 
           {/* UC Davis Health Gunrock */}
           {/* <li className="icon solid fa-film">
-            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank">UC Davis Gunrock Visits UC Davis Health</a></h3>
+            <h3><a href="https://youtu.be/WyhQLYSZxak" target="_blank" rel="noopener noreferrer">UC Davis Gunrock Visits UC Davis Health</a></h3>
             <h5>Created using:
               <br />
               Premiere Pro
@@ -473,7 +473,7 @@ const IndexPage = () => (
             
           </li>
           <li>
-            <a href="mailto: jason@jharrel.design" className="button fit" target="_blank">
+            <a href="mailto: jason@jharrel.design" className="button fit" target="_blank" rel="noopener noreferrer">
               Email Me
             </a>
           </li>
