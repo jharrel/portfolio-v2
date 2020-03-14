@@ -4,7 +4,7 @@
   "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://jharrel.design"
+    "url": "git+https://github.com/jharrel/portfolio-v2"
   },
   "author": {
     "name": "Jason Harrel",
