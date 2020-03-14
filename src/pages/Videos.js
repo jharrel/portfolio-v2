@@ -94,7 +94,7 @@ const IndexPage = () => (
               <br />
                 Adobe After Effects // Cinema 4D</h5>
               <p>
-                Mr. Robot's title sequence reimagined.
+                Mr. Robot's title sequence reimagined. Backgrounds and objects created with Cinema 4D
             </p>
             </ol>
 
@@ -108,7 +108,7 @@ const IndexPage = () => (
                 After Effects // Cinema 4D // Premiere Pro
             </h5>
               <p>
-                A plane makes its great escape from the childs room as it knows there's a bigger world to explore just outside the four walls.
+                A plane makes its great escape from the childs room as it knows there's a bigger world to explore just outside the four walls. All items created within Cinema 4D and rendered with After Effects.
             </p>
             </ol>
 
